@@ -24,15 +24,15 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 25,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Body" },
+      { name: "Skin" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Shoes" },
+      { name: "Bottom" },
     ],
   },
 ];
@@ -80,7 +80,7 @@ const background = {
 
 const extraMetadata = {};
 
-const rarityDelimiter = "#";
+const rarityDelimiter = "#10";
 
 const uniqueDnaTorrance = 10000;
 
