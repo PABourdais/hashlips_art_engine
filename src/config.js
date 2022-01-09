@@ -35,6 +35,7 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
+      { name: "BottomColor" },
       { name: "Hat" },
     ],
   },
