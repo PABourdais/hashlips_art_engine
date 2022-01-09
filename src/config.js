@@ -24,6 +24,19 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
+    growEditionSizeTo: 10,
+    layersOrder: [
+      { name: "Background" },
+      { name: "BodyAlien" },
+      { name: "SkinAlien" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Shoes" },
+      { name: "ShoesColor" },
+      { name: "Bottom" },
+    ],
+  },
+  {
     growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
@@ -32,6 +45,7 @@ const layerConfigurations = [
       { name: "Eyes" },
       { name: "Mouth" },
       { name: "Shoes" },
+      { name: "ShoesColor" },
       { name: "Bottom" },
     ],
   },
@@ -78,9 +92,11 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  creator: "ElrondBuddys",
+};
 
-const rarityDelimiter = "#10";
+const rarityDelimiter = "10";
 
 const uniqueDnaTorrance = 10000;
 
