@@ -75,7 +75,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 250,
+    growEditionSizeTo: 80,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
@@ -85,6 +85,24 @@ const layerConfigurations = [
       { name: "Mouth" },
       { name: "Beard" },
       { name: "Blings" },
+      { name: "Cigar" },
+      { name: "Shoes" },
+      { name: "ShoesColor" },
+      { name: "Bottom" },
+      { name: "BottomColor" },
+      { name: "Hat" },
+    ],
+  },
+  {
+    growEditionSizeTo: 300,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Skin" },
+      { name: "Eyes" },
+      { name: "EyeBrows" },
+      { name: "Mouth" },
+      { name: "Beard" },
       { name: "Cigar" },
       { name: "Shoes" },
       { name: "ShoesColor" },
