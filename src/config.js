@@ -84,6 +84,7 @@ const layerConfigurations = [
       { name: "EyeBrows" },
       { name: "Mouth" },
       { name: "Beard" },
+      { name: "Blings" },
       { name: "Cigar" },
       { name: "Shoes" },
       { name: "ShoesColor" },
