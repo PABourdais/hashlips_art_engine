@@ -36,8 +36,7 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
-      { name: "BottomColor" },
-      { name: "Hat" },
+      { name: "Top" },
     ],
   },
   {
@@ -53,8 +52,7 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
-      { name: "BottomColor" },
-      { name: "Hat" },
+      { name: "Top" },
     ],
   },
   {
@@ -70,8 +68,7 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
-      { name: "BottomColor" },
-      { name: "Hat" },
+      { name: "Top" },
     ],
   },
   {
@@ -89,16 +86,16 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
-      { name: "BottomColor" },
-      { name: "Hat" },
+      { name: "Top" },
     ],
   },
   {
-    growEditionSizeTo: 300,
+    growEditionSizeTo: 400,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
       { name: "Skin" },
+      { name: "Tattoo" },
       { name: "Eyes" },
       { name: "EyeBrows" },
       { name: "Mouth" },
@@ -107,8 +104,7 @@ const layerConfigurations = [
       { name: "Shoes" },
       { name: "ShoesColor" },
       { name: "Bottom" },
-      { name: "BottomColor" },
-      { name: "Hat" },
+      { name: "Top" },
     ],
   },
 ];
@@ -158,7 +154,7 @@ const extraMetadata = {
   creator: "ElrondBuddys",
 };
 
-const rarityDelimiter = "10";
+const rarityDelimiter = "100";
 
 const uniqueDnaTorrance = 10000;
 
