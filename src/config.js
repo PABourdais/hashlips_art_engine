@@ -24,10 +24,9 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 555,
     layersOrder: [
       { name: "Background" },
-      { name: "BodyAlien" },
       { name: "SkinAlien" },
       { name: "Tattoo" },
       { name: "Eyes" },
@@ -41,10 +40,9 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 40,
+    growEditionSizeTo: 1110,
     layersOrder: [
       { name: "Background" },
-      { name: "BodyGhost" },
       { name: "SkinGhost" },
       { name: "Tattoo" },
       { name: "Eyes" },
@@ -58,11 +56,10 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 60,
+    growEditionSizeTo: 1665,
     layersOrder: [
       { name: "Background" },
-      { name: "BodyDemon" },
-      { name: "SkinDemon" },
+      { name: "SkinDevil" },
       { name: "Tattoo" },
       { name: "Eyes" },
       { name: "EyeBrows" },
@@ -75,11 +72,10 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 80,
+    growEditionSizeTo: 2220,
     layersOrder: [
       { name: "Background" },
-      { name: "Body" },
-      { name: "Skin" },
+      { name: "SkinZombie" },
       { name: "Tattoo" },
       { name: "Eyes" },
       { name: "EyeBrows" },
@@ -94,16 +90,16 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 400,
+    growEditionSizeTo: 4000,
     layersOrder: [
       { name: "Background" },
-      { name: "Body" },
       { name: "Skin" },
       { name: "Tattoo" },
       { name: "Eyes" },
       { name: "EyeBrows" },
       { name: "Mouth" },
       { name: "Beard" },
+      { name: "Blings" },
       { name: "Cigar" },
       { name: "Shoes" },
       { name: "ShoesColor" },
