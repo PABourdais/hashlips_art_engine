@@ -90,15 +90,15 @@ const layerConfigurations = [
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
-      { name: "Eyes" },
       { name: "EyeBrows" },
-      { name: "Mouth" },
       { name: "Beard" },
+      { name: "Mouth" },
       { name: "Blings" },
       { name: "Cigar" },
+      { name: "Eyes" },
       { name: "Shoes" },
       { name: "Bottom" },
-      { name: "Hand" },
+      //{ name: "Hand" },
       { name: "Top" },
     ],
   },
@@ -149,7 +149,7 @@ const extraMetadata = {
   creator: "ElrondBuddys",
 };
 
-const rarityDelimiter = "100";
+const rarityDelimiter = "#";
 
 const uniqueDnaTorrance = 10000;
 
