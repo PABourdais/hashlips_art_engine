@@ -98,7 +98,7 @@ const layerConfigurations = [
       { name: "Eyes" },
       { name: "Shoes" },
       { name: "Bottom" },
-      //{ name: "Hand" },
+      { name: "Hand" },
       { name: "Top" },
     ],
   },
