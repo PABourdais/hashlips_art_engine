@@ -23,8 +23,29 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
-  /*{
-    growEditionSizeTo: 555,
+  {
+    growEditionSizeTo: 1,
+    layersOrder: [
+      { name: "Background" },
+      { name: "KingMaiar" },
+    ],
+  },
+  {
+    growEditionSizeTo: 2,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Wizzard" },
+    ],
+  },
+  {
+    growEditionSizeTo: 3,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Maiar" },
+    ],
+  },
+/*  {
+    growEditionSizeTo: 558,
     layersOrder: [
       { name: "Background" },
       { name: "SkinAlien" },
@@ -41,7 +62,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1110,
+    growEditionSizeTo: 1113,
     layersOrder: [
       { name: "Background" },
       { name: "SkinGhost" },
@@ -58,7 +79,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1665,
+    growEditionSizeTo: 1668,
     layersOrder: [
       { name: "Background" },
       { name: "SkinDevil" },
@@ -75,7 +96,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 2220,
+    growEditionSizeTo: 2223,
     layersOrder: [
       { name: "Background" },
       { name: "SkinZombie" },
