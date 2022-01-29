@@ -121,7 +121,6 @@ const layerConfigurations = [
       { name: "Beard" },
       { name: "Mouth" },
       { name: "Blings" },
-      { name: "Cigar" },
       { name: "Eyes" },
       { name: "Shoes" },
       { name: "Bottom" },
