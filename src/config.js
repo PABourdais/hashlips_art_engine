@@ -113,7 +113,7 @@ const layerConfigurations = [
     ],
   },*/
   {
-    growEditionSizeTo: 500,
+    growEditionSizeTo: 400,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
