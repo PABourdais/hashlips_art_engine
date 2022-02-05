@@ -44,7 +44,7 @@ const layerConfigurations = [
       { name: "Maiar" },
     ],
   },
-  {
+/*  {
     growEditionSizeTo: 558,
     layersOrder: [
       { name: "Background" },
@@ -111,9 +111,9 @@ const layerConfigurations = [
       { name: "Blings" },
       { name: "Top" },
     ],
-  },
+  },*/
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 500,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
