@@ -44,8 +44,8 @@ const layerConfigurations = [
       { name: "Maiar" },
     ],
   },
-/*  {
-    growEditionSizeTo: 558,
+  {
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "SkinAlien" },
@@ -62,7 +62,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1113,
+    growEditionSizeTo: 200,
     layersOrder: [
       { name: "Background" },
       { name: "SkinGhost" },
@@ -79,7 +79,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 1668,
+    growEditionSizeTo: 300,
     layersOrder: [
       { name: "Background" },
       { name: "SkinDevil" },
@@ -96,7 +96,7 @@ const layerConfigurations = [
     ],
   },
   {
-    growEditionSizeTo: 2223,
+    growEditionSizeTo: 400,
     layersOrder: [
       { name: "Background" },
       { name: "SkinZombie" },
@@ -111,7 +111,7 @@ const layerConfigurations = [
       { name: "Blings" },
       { name: "Top" },
     ],
-  },*/
+  },
   {
     growEditionSizeTo: 500,
     layersOrder: [
