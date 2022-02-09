@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Elrond Buddies";
+const description = "Made with love for the Elrond community";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -44,7 +44,7 @@ const layerConfigurations = [
       { name: "Maiar" },
     ],
   },
-  {
+/*  {
     growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
@@ -111,7 +111,7 @@ const layerConfigurations = [
       { name: "Blings" },
       { name: "Top" },
     ],
-  },
+  },*/
   {
     growEditionSizeTo: 500,
     layersOrder: [
